@@ -1,0 +1,20 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vuepress dev docs  --temp .temp",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "description": "",
+  "dependencies": {
+    "vuepress-plugin-cat": "^1.0.3"
+  }
+}
